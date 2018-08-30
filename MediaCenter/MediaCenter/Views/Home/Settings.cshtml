@@ -1,0 +1,37 @@
+﻿
+
+
+@{
+    ViewData["Title"] = "Settings";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="card border-secondary">
+            <div class="card-header">Location</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile02">
+                            <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Secondary card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <p>@ViewData["Location"]</p>
+    </div>
+</div>
